@@ -2,6 +2,10 @@
 
 A modern, responsive frontend developer portfolio showcasing selected projects, technical skills, and experience.
 
+## 🌐 Live Portfolio
+
+[View Mahvish Studio](https://mahvish-studio.vercel.app/)
+
 ## Overview
 
 This portfolio was designed and developed to present my work as a self-taught frontend developer.
