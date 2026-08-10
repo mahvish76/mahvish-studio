@@ -59,22 +59,6 @@ export default function Contact() {
                 redesigning an existing product, I'd love to hear from you.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
-                <button
-                  onClick={copyEmail}
-                  className="px-8 py-4 rounded-xl bg-primaryBronze text-black font-bold text-base hover:bg-primaryBronze/85 transition-all duration-300 shadow-xl flex items-center gap-2"
-                >
-                  <Mail className="w-5 h-5 text-MidnightViolet" />
-                  <span>{copied ? "Email Address Copied!" : "Copy Email Address"}</span>
-                </button>
-                <a
-                  href="https://www.linkedin.com/in/mahvishfatima/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-8 py-4 rounded-xl glass-card text-white hover:text-primaryBronze font-semibold text-base transition-all duration-300 border border-primaryBronze/30 flex items-center gap-2"
-                >
-                  <IconLinkedin className="w-5 h-5 text-primaryBronze" />
-                  <span>Connect on LinkedIn</span>
-                </a>
                 <a
                   href="https://wa.me/918090771059"
                   target="_blank"
@@ -84,6 +68,24 @@ export default function Contact() {
                   <MessageCircle className="w-5 h-5 text-primaryBronze" />
                   <span>Message on Whatsapp</span>
                 </a>
+                <a
+                  href="https://www.linkedin.com/in/mahvishfatima/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-8 py-4 rounded-xl glass-card text-white hover:text-primaryBronze font-semibold text-base transition-all duration-300 border border-primaryBronze/30 flex items-center gap-2"
+                >
+                  <IconLinkedin className="w-5 h-5 text-primaryBronze" />
+                  <span>Connect on LinkedIn</span>
+                </a>
+                <button
+                  onClick={copyEmail}
+                  className="px-8 py-4 rounded-xl bg-primaryBronze text-black font-bold text-base hover:bg-primaryBronze/85 transition-all duration-300 shadow-xl flex items-center gap-2"
+                >
+                  <Mail className="w-5 h-5 text-MidnightViolet" />
+                  <span>
+                    {copied ? "Email Address Copied!" : "Copy Email Address"}
+                  </span>
+                </button>
               </div>
             </div>
           </div>

@@ -45,7 +45,7 @@ export default function Hero() {
         >
           <span className="h-2 w-2 rounded-full bg-primaryBronze" />
           <span className="text-xs font-medium uppercase tracking-[0.3em] text-primaryBronze">
-            Frontend Developer • India
+            Websites for Businesses • India
           </span>
         </motion.div>
 
@@ -63,7 +63,7 @@ export default function Hero() {
           variants={item}
           className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-white/70"
         >
-          Frontend developer crafting fast, responsive and premium digital
+          I am a frontend developer crafting fast, responsive and premium digital
           experiences with React, Next.js and Tailwind CSS.
         </motion.p>
 

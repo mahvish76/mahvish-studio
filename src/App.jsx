@@ -8,28 +8,17 @@ import Hero from "./components/sections/Hero/Hero";
 import PersonalProject from "./components/sections/PersonalProject";
 import Projects from "./components/sections/projects/Projects";
 
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import Services from "./components/sections/Services";
 
 function App() {
-  const transitionRef = useRef(null);
-
-  const { scrollYProgress } = useScroll({
-    target: transitionRef,
-    offset: ["start start", "end start"],
-  });
-
-  const projectY = useTransform(
-    scrollYProgress,
-    [0, 1],
-    ["100vh", "0vh"]
-  );
+  
   return (
     <>
       <Header />
       <main>
         <Hero />
         <FeaturedProject />
+        <Services />
         <About />
         <PersonalProject />
         <Contact />
